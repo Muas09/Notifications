@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notifycation</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,200;0,600;1,300&family=Inter:wght@300&family=Outfit:wght@500&family=Poppins:wght@100;700&family=Roboto:wght@300;700&display=swap"
+      rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="title">
+        <div class="sub_title_Notifications">
+          <div class="title_text_Notifications">Notifications</div>
+          <div>
+            <span id="notification_quantity" class="notification">3</span>
+          </div>
+        </div>
+
+        <div class="sub_title_Mark" onclick="markAllAsRead()">
+          Mark all as read
+        </div>
+      </div>
+      <div class="chax_box" id="notificationList">
+        <div class="notification-item unread" data-id="1">
+          <div class="user">
+            <div class="message">
+              <div>
+                <img
+                  class="avatar"
+                  src="./images/Avatar_Mark_Webber.svg"
+                  alt="Avatar" />
+              </div>
+              <div>
+                <div class="texts">
+                  <span class="nick_name">Mark Webber </span>
+                  <span class="action"> reacted to your recent post</span>
+                  <span class="group" class="group"
+                    >My first tournament today!</span
+                  >
+                  <span class="notification_icons"> </span>
+                </div>
+                <div class="time">1m ago</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="notification-item unread" data-id="2">
+          <div class="user">
+            <div class="message">
+              <div>
+                <img
+                  class="avatar"
+                  src="./images/Avatar_Angela_Gray.svg"
+                  alt="Avatar" />
+              </div>
+              <div>
+                <div class="texts">
+                  <span class="nick_name">Angela Gray </span>
+                  <span class="action"> followed you</span>
+                  <span class="notification_icons"> </span>
+                </div>
+                <div class="time">5m ago</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="notification-item unread" data-id="3">
+          <div class="user">
+            <div class="message">
+              <div>
+                <img
+                  class="avatar"
+                  src="./images/Avatar_Jacob_Thompson.svg"
+                  alt="Avatar" />
+              </div>
+              <div>
+                <div class="texts">
+                  <span class="nick_name">Jacob Thompson </span>
+                  <span class="action"> has joined your group</span>
+                  <span class="group">Chess Club </span>
+                  <span class="notification_icons"> </span>
+                </div>
+                <div class="time">1m ago</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="user">
+          <div class="message">
+            <div>
+              <img
+                class="avatar"
+                src="./images/Avatar_Rizky_Hasanuddin.svg"
+                alt="Avatar" />
+            </div>
+            <div>
+              <div class="texts">
+                <span class="nick_name">Rizky Hasanuddin </span>
+                <span class="action"> sent you a private message</span>
+              </div>
+              <div class="time">5 days ago</div>
+              <div class="bordered_text">
+                Hello, thanks for setting up the Chess Club. I've been a member
+                for a few weeks now and I'm already having lots of fun and
+                improving my game.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="user_Kimberly">
+          <div class="user">
+            <div class="message">
+              <div class="sub_message_Kimberly">
+                <div>
+                  <img
+                    class="avatar"
+                    src="./images/Avatar_KImberly_Smith.svg"
+                    alt="Avatar" />
+                </div>
+                <div class="sub_message_texts">
+                  <div class="texts">
+                    <span class="nick_name">Kimberly Smith</span>
+                    <span class="action"> commented on your picture</span>
+                  </div>
+                  <div class="time">1 week ago</div>
+                </div>
+                <div>
+                  <img
+                    class="Image_Kimberly"
+                    src="./images/Image_Kimberly_Smith.svg"
+                    alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="user">
+          <div class="message">
+            <div>
+              <img
+                class="avatar"
+                src="./images/Avatar_Nathan_Peterson.svg"
+                alt="Avatar" />
+            </div>
+            <div>
+              <div class="texts">
+                <span class="nick_name">Nathan Peterson</span>
+                <span class="action"> reacted to your recent post</span>
+                <span class="group"
+                  >5 end-game strategies to increase your win rate
+                </span>
+              </div>
+              <div class="time">2 weeks ago</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="user">
+          <div class="message">
+            <div>
+              <img
+                class="avatar"
+                src="./images/Avatar_Anna_Kim.svg"
+                alt="Avatar" />
+            </div>
+            <div>
+              <div class="texts">
+                <span class="nick_name">Anna Kim </span>
+                <span class="action"> left the group </span>
+                <span class="group">Chess Club </span>
+              </div>
+              <div class="time">2 weeks ago</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

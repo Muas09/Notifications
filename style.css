@@ -1,0 +1,192 @@
+body {
+    background: #F6FAFD;
+    font-family: Roboto;
+    height: auto;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 620px;
+    margin: 48px 373px 94px 373px;
+    padding: 28px 16px 58px 16px;
+    border-radius: 16px;
+    background: #FFF;
+}
+
+.notification {
+    background: #F65351;
+    color: #fff;
+    font-size: 14px;
+    padding: 4px 9px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #0A317B;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.sub_title_Notifications {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.title_text_Notifications {
+    color: #000;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.sub_title_Mark {
+    color: #5E6778;
+    font-size: 14px;
+    font-weight: 510;
+    cursor: pointer;
+}
+
+.chax_box {
+    margin-top: 24px;
+}
+.user {
+    display: flex;
+    margin-bottom: 16px;
+}
+.avatar {
+    padding: 0px 0px 16px 16px;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.message {
+    border-radius: 8px;
+    padding: 16px 17px 16px;
+    flex: 2;
+    display: flex;
+}
+.message .sub_message_Kimberly {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+}
+.sub_message_Kimberly .Image_Kimberly {
+    display: flex;
+    align-items: center;
+    margin-left: 217px;
+}
+.texts .nick_name {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18.2px;
+    color: #1C202B;
+}
+.texts .action {
+    color: #5E6778;
+    font-size: 14px;
+}
+.texts .group {
+    color: #5E6778;
+    font-size: 14px;
+    font-weight: 700;
+}
+.sub_message_texts {
+    padding: 0px;
+}
+.texts .notification_icons {
+    width: 8px;
+    height: 8px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #F65351;
+    display: inline-grid;
+}
+.time {
+    color: #939DAE;
+    font-size: 14px;
+    line-height: 18.2px;
+}
+.bordered_text {
+    margin: 7px -1px 0px 0px;
+    padding: 17px 44px 16px 17px;
+    color: #5E6778;
+    font-size: 14px;
+    line-height: 18.2px;
+    border-radius: 4.8px;
+    border: 1px solid #E5EFFA;
+}
+.notification-item.unread {
+    background-color: #F7FAFD;
+    border-radius: 8px;
+}
+.notification-item.read {
+    opacity: 1;
+}
+@media screen and (max-width: 768px) {
+    body {
+        display: block;
+    }
+    .container {
+        max-width:400px;
+        margin: 0px;
+        align-items: center;
+    }
+    .title {}
+
+    .title_text_Notifications {
+        font-size: 16px;
+    }
+
+    .sub_title_Mark {
+        font-size: 12px;
+    }
+
+    .message .sub_message_Kimberly {
+        display: flex;
+        gap:10px;
+
+    }
+
+    .user_Kimberly .message {
+        position: relative;
+        border-radius: 8px;
+        padding: 10px;
+        flex: 2;
+        display: flex;
+    }
+
+    .avatar {
+        padding: 5px;
+    }
+
+    .user_Kimberly .message .sub_message_Kimberly .avatar {
+        padding: 5px;
+
+    }
+
+    .sub_message_Kimberly .Image_Kimberly {
+        margin-left: 0px;
+    }
+
+    .sub_message_Kimberly .sub_message_texts {
+        padding: 0px 10px 0px 0px;
+    }
+
+    .bordered_text {
+        padding: 12px;
+        font-size: 12px;
+        padding: 17px 17px 16px 17px;
+    }
+}
